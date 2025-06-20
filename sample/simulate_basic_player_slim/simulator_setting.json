@@ -1,0 +1,13 @@
+{
+    "board_size": 8,
+    "matches": 100,
+    "processes": 8,
+    "parallel": "player",
+    "random_opening": 0,
+    "player_names": [
+        "Random",
+        "Greedy",
+        "MinMax"
+    ],
+    "perfect_check": false
+}

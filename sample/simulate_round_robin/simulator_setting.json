@@ -1,0 +1,24 @@
+{
+    "board_size": 8,
+    "matches": 100,
+    "processes": 8,
+    "parallel": "player",
+    "random_opening": 0,
+    "player_names": [
+        "Unselfish",
+        "Random",
+        "Greedy",
+        "SlowStarter",
+        "Table",
+        "MonteCarlo",
+        "MinMax",
+        "NegaMax",
+        "AlphaBeta",
+        "Joseki",
+        "FullReading",
+        "Iterative",
+        "Edge",
+        "Switch"
+    ],
+    "perfect_check": false
+}
