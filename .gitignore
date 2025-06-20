@@ -197,3 +197,10 @@ cython_debug/
 /.vscode
 @old/
 @archive/
+cache/
+/service/edax-4.6/linux/data/
+/service/edax-4.6/linux/problem/
+/service/edax-4.6/linux/lEdax*
+/service/edax-4.6/windows/data/
+/service/edax-4.6/windows/problem/
+/service/edax-4.6/windows/wEdax*
