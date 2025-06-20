@@ -1,0 +1,23 @@
+[project]
+name = "reversi-computer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "sakagami0615",email = "sakagami0615@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "reversi @ git+https://github.com/y-tetsu/reversi",
+    "filelock (>=3.18.0,<4.0.0)",
+    "numpy (>=2.3.0,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
