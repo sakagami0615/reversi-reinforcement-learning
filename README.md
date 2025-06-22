@@ -50,6 +50,32 @@ poetry update
   # T.B.D
   ```
 
+## edax-reversi の準備
+
+[edax-reversi (Version 4.6)](https://github.com/abulmo/edax-reversi/releases/tag/v4.6) から以下の圧縮ファイルを取得＆展開し、 [service/edax-4.6] フォルダに配置する。(Intel CPU 環境を想定)
+
+- edax-4.6-linux-x86.tar.gz
+- edax-4.6-MS-windows-x86.zip
+
+```bash
+service/edax-4.6
+├─linux
+│  │  lEdax-x86-64
+│  │  lEdax-x86-64-v2
+│  │  lEdax-x86-64-v3
+│  │
+│  ├─data
+│  └─problem
+│
+└─windows
+    │  wEdax-x86-64-v2.exe
+    │  wEdax-x86-64-v3.exe
+    │  wEdax-x86-64.exe
+    │
+    ├─data
+    └─problem
+```
+
 ## Appendix
 
 - [自作したリバーシAIでEdaxに挑む！](https://qiita.com/y-tetsu/items/2d5a199e401aa846891f)
